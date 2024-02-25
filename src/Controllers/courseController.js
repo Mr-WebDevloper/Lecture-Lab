@@ -1,4 +1,4 @@
-const courseSchema = require("../Model/coursemodel");
+const courseSchema = require('../Model/courseModel')
 const courseMapToInstructorSchema = require("../Model/courseMapToInstructor");
 const assignBatchToCourseSchema = require("../Model/assignBatchToCourse");
 var ObjectId = require('mongoose').Types.ObjectId;
