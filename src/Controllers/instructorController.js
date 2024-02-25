@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const Instructor = require("../model/instructorModel");
+const Instructor = require("../Model/instructorModel");
 
 const instructorCreate = async (req, res) => {
   const { name, email, mobile, password } = req.body;
